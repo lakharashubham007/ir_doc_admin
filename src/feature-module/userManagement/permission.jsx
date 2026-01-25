@@ -6,7 +6,7 @@ import { permission } from "../../core/data/json/permission";
 import { all_routes } from "../router/all_routes";
 import TooltipOption from "../../core/common/tooltipOption";
 import { assignPermissionApi, getPermissionsApi, getRolePermissionsApi } from "../../services/RolesPermissions";
-import { getAllSidebarMenus } from "../../services/sidebarmenus";
+import { getAllSidebarMenus } from "../../services/Sidebar";
 import { useLocation } from "react-router-dom";
 import { updateRoleApi } from "../../services/RolesPermissions";
 import Swal from "sweetalert2";
