@@ -1,7 +1,7 @@
 // src/services/index.js
 
-const BASE_URL = "http://localhost:5000";
-
+// const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://api.mydox.online";
 const apis = {
     baseUrl: BASE_URL,
 
