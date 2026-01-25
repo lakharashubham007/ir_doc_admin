@@ -16,7 +16,7 @@ import usePreviousRoute from "./usePreviousRoute";
 import "../../../../node_modules/react-perfect-scrollbar/dist/css/styles.css";
 import PerfectScrollbar from "react-perfect-scrollbar";
 import "../../../../node_modules/react-perfect-scrollbar/dist/css/styles.css";
-import { getSidebarMenus } from "../../../services/sidebarmenus";
+import { getSidebarMenus } from "../../../services/SidebarMenus";
 
 const Sidebar = () => {
   const Location = useLocation();
@@ -28,7 +28,7 @@ const Sidebar = () => {
   const [sidebarData, setSidebarData] = useState([]);
   const [loadingMenus, setLoadingMenus] = useState(false);
 
-  console.log("sidebarData",sidebarData);
+  // console.log("sidebarData",sidebarData);
 
   const toggleSidebar = (title) => {
     localStorage.setItem("menuOpened", title);
