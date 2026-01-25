@@ -16,7 +16,7 @@ import usePreviousRoute from "./usePreviousRoute";
 import "../../../../node_modules/react-perfect-scrollbar/dist/css/styles.css";
 import PerfectScrollbar from "react-perfect-scrollbar";
 import "../../../../node_modules/react-perfect-scrollbar/dist/css/styles.css";
-import { getSidebarMenus } from "../../../services/SidebarMenus";
+import { getSidebarMenus } from "../../../services/Sidebar";
 
 const Sidebar = () => {
   const Location = useLocation();
