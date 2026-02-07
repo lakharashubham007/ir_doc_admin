@@ -19,7 +19,7 @@ import { BrowserRouter } from 'react-router';
 import React from 'react';
 
 
-
+//updated
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
